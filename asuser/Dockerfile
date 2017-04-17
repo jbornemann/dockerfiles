@@ -4,7 +4,7 @@ MAINTAINER Jeff Bornemann
 
 RUN useradd -u 7000 -g root myuser
 
-USER 7000
+USER 2100
 
 RUN touch /home/myuser/file
 
