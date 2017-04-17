@@ -2,7 +2,7 @@ FROM centos:7
 
 MAINTAINER Jeff Bornemann
 
-RUN useradd -u 7000 -g root myuser
+RUN useradd -u 2100 -g root myuser
 
 USER 2100
 
